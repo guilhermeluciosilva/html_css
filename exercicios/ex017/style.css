@@ -3,6 +3,7 @@ body{
     font-size: 1em;
     background-color: wheat;
 }
+
 a{
     font-weight: bold;
     text-decoration: none;
@@ -10,7 +11,7 @@ a{
 }
 
 a:visited{
-    color: blueviolet;
+    color:blue;
 }
 
 a:hover{
@@ -36,4 +37,19 @@ h2{
 
 .texto {
     text-align: justify;
+}
+
+.especial:hover {
+    color: white;
+    background-color: black;
+    text-decoration: overline;
+}
+
+.especial::before {
+    content: '>>';
+}
+
+.especial::after {
+    content: '<<';
+    font-weight: lighter;
 }
