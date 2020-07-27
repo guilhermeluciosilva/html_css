@@ -1,0 +1,29 @@
+body{
+    background-color:springgreen;
+}
+header{
+    width: 100%;
+    background-color:green;
+    overflow: hidden;
+    
+}
+
+h1{
+    text-align:center;
+    color:white;
+    font-size: 30px;
+}
+p{
+    text-align:center;
+    color:white;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 2px solid black;
+}
+button{
+    background-color: green;
+    padding: 5px 20px;
+    border: 1px solid green;
+    color: white;
+    font-size: 13px;
+}
